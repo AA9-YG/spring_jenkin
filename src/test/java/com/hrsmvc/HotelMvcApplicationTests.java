@@ -17,11 +17,11 @@ class HotelMvcApplicationTests {
 	@Autowired
 	RoomService rService;
 	
-	@Test
-	public void testAddRoom() {
-		Room r1 = new Room("King", 'n', 100.50);
-		r1.setOccupant("John");
-		
-		rService.saveRoom(r1);
-	}
+//	@Test
+//	public void testAddRoom() {
+//		Room r1 = new Room("King", 'n', 100.50);
+//		r1.setOccupant("John");
+//		
+//		rService.saveRoom(r1);
+//	}
 }
