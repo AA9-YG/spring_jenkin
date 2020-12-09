@@ -12,7 +12,7 @@ import com.hrsmvc.services.HotelService;
 
 @Controller
 public class HotelController {
-	@RequestMapping("/")
+	@RequestMapping("/")	//home page
 	public String welcome() {
 		// Forward request to model and get some data
 		return "index"; // this is a view name
