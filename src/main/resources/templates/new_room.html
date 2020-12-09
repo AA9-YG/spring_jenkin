@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	  xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>New Rooms</title>
+</head>
+<body>
+<form action="#" th:action="@{/save}">
+Room ID <input type="text" th:field="*{id}"> <br>
+Occupant Name <input type="text" th:field="*{name}"> <br>
+Bed Type <input type="text" th:field="*{bedType}"> <br>
+Smoking Type <input type="text" th:field="*{smokingType}"> <br>
+<button type="submit">Save</button>
+</form>
+</body>
+</html>
